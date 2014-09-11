@@ -7,17 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+Utils.h"
 
-@interface ViewController ()
 
-@end
-
-@implementation ViewController
+@implementation ViewController{
+	__weak IBOutlet UIImageView* _iv;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	UIColor* white_color = [[UIColor alloc] initWithWhite:1 alpha:0.5];
+	[_iv applyBlurWithRaduis:10 tintColor:white_color saturationDeltaFactor:1 animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
