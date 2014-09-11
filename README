@@ -1,0 +1,2 @@
+pod "UIImage+Utils", :git => 'https://github.com/noughts/UIImage-Utils.git'
+pod "UIImageView+Utils", :git => 'https://github.com/noughts/UIImageView-Utils.git'

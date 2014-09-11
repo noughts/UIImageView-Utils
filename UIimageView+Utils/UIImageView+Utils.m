@@ -27,7 +27,7 @@
 		transition.duration = 0.25;
 		transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
 		transition.type = kCATransitionFade;
-		[self.layer addAnimation:transition forKey:nil];
+		[self.layer addAnimation:transition forKey:@"setImage"];
 	}
 }
 
