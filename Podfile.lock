@@ -1,0 +1,14 @@
+PODS:
+  - UIImage+Utils (0.1.0)
+
+DEPENDENCIES:
+  - UIImage+Utils (from `https://github.com/noughts/UIImage-Utils.git`)
+
+EXTERNAL SOURCES:
+  UIImage+Utils:
+    :git: https://github.com/noughts/UIImage-Utils.git
+
+SPEC CHECKSUMS:
+  UIImage+Utils: 78bb70082001aee0f9cd70cc3ad8c13e245161d4
+
+COCOAPODS: 0.33.1
